@@ -6,7 +6,7 @@ void main() {
     // home: MyHomePage(),
     title: 'ROUTE DEMO',
     initialRoute: '/',
-    routes: <String, WidgetBuilder> {
+    routes: < String, WidgetBuilder > {
       '/': (context) => MyHomePage(),
       '/a': (context) => MySecondPage()
     },
@@ -37,7 +37,10 @@ class MyApp extends StatelessWidget {
 }
 
 class MyHomePage extends StatefulWidget {
-  MyHomePage({Key key, this.title}) : super(key: key);
+  MyHomePage({
+    Key key,
+    this.title
+  }): super(key: key);
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
@@ -54,7 +57,7 @@ class MyHomePage extends StatefulWidget {
   _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _MyHomePageState extends State < MyHomePage > {
   int _counter = 0;
   String textToShow = 'I like Flutter!!!';
 
@@ -117,7 +120,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // axis because Columns are vertical (the cross axis would be
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
+          children: < Widget > [
             Text(
               'the button has been clicked this many times:',
             ),
@@ -151,7 +154,10 @@ class _MyHomePageState extends State<MyHomePage> {
 
 
 class MySecondPage extends StatefulWidget {
-  MySecondPage({Key key, this.title}) : super(key: key);
+  MySecondPage({
+    Key key,
+    this.title
+  }): super(key: key);
 
   // This widget is the home page of your application. It is stateful, meaning
   // that it has a State object (defined below) that contains fields that affect
@@ -169,7 +175,7 @@ class MySecondPage extends StatefulWidget {
 }
 
 
-class _MySecondPageState extends State<MySecondPage> {
+class _MySecondPageState extends State < MySecondPage > {
   int _counter = 0;
   String textToShow = 'I like Flutter 2!!!';
 
@@ -232,7 +238,7 @@ class _MySecondPageState extends State<MySecondPage> {
           // axis because Columns are vertical (the cross axis would be
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
-          children: <Widget>[
+          children: < Widget > [
             Text(
               'the button has been clicked this many times:',
             ),
