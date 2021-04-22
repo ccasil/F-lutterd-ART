@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './main.dart';
 
 class FifthScreen extends StatelessWidget {
   @override
@@ -8,12 +9,8 @@ class FifthScreen extends StatelessWidget {
         title: Text("Fifth Screen"),
       ),
       body: Center(
-        child: ElevatedButton(
-          onPressed: () {
-            Navigator.pop(context);
-          },
-          child: Text('Go back!'),
-        ),
+        child:
+            TheBackButton(),
       ),
     );
   }

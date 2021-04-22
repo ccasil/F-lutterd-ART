@@ -7,8 +7,8 @@ void main() {
     title: 'ROUTE DEMO',
     initialRoute: '/',
     routes: < String, WidgetBuilder > {
-      '/': (context) => MyHomePage(),
-      '/a': (context) => MySecondPage()
+      '/': (context) => MyHomePage(title: '',),
+      '/a': (context) => MySecondPage(title: '',)
     },
   ));
 }
@@ -38,8 +38,8 @@ class MyApp extends StatelessWidget {
 
 class MyHomePage extends StatefulWidget {
   MyHomePage({
-    Key key,
-    this.title
+    Key? key,
+    required this.title
   }): super(key: key);
 
   // This widget is the home page of your application. It is stateful, meaning
@@ -155,8 +155,8 @@ class _MyHomePageState extends State < MyHomePage > {
 
 class MySecondPage extends StatefulWidget {
   MySecondPage({
-    Key key,
-    this.title
+    Key? key,
+    required this.title
   }): super(key: key);
 
   // This widget is the home page of your application. It is stateful, meaning

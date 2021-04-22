@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 
 class SecondScreen extends StatefulWidget {
   SecondScreen({
-    Key key,
-    this.title
+    Key ? key,
+    required this.title
   }): super(key: key);
 
   final String title;
@@ -31,26 +31,29 @@ class _SecondScreenState extends State < SecondScreen > {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Second Screen"),
+        title: Text("Boolean Toggle Screen"),
       ),
       body: Center(
 
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: < Widget > [
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pop(context);
-              },
-              child: Text('Go back!'),
+            BackButton(
+              color: Colors.blue,
             ),
-            Text(
-              '$count',
-              style: Theme.of(context).textTheme.headline4,
+            Padding(
+              padding: EdgeInsets.all(16),
+              child: Text(
+                '$count',
+                style: Theme.of(context).textTheme.headline4,
+              ),
             ),
-            Text(
-              textToShow,
-              style: TextStyle(fontWeight: FontWeight.bold),
+            Padding(
+              padding: EdgeInsets.all(16),
+              child: Text(
+                textToShow,
+                style: TextStyle(fontWeight: FontWeight.bold),
+              ),
             ),
           ],
         ),

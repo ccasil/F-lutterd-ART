@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
+import './main.dart';
 
 class FirstScreen extends StatefulWidget {
   FirstScreen({
-    Key key,
-    this.title
+    Key ? key,
+    required this.title
   }): super(key: key);
 
   // This widget is the home page of your application. It is stateful, meaning
@@ -43,65 +44,46 @@ class _FirstScreenState extends State < FirstScreen > {
       ),
       body: Center(
         // child: ,
-        child: Column(
-          // Column is also a layout widget. It takes a list of children and
-          // arranges them vertically. By default, it sizes itself to fit its
-          // children horizontally, and tries to be as tall as its parent.
-          //
-          // Invoke "debug painting" (press "p" in the console, choose the
-          // "Toggle Debug Paint" action from the Flutter Inspector in Android
-          // Studio, or the "Toggle Debug Paint" command in Visual Studio Code)
-          // to see the wireframe for each widget.
-          //
-          // Column has various properties to control how it sizes itself and
-          // how it positions its children. Here we use mainAxisAlignment to
-          // center the children vertically; the main axis here is the vertical
-          // axis because Columns are vertical (the cross axis would be
-          // horizontal).
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: < Widget > [
-            ElevatedButton(
-              // Within the `FirstScreen` widget
-              onPressed: () {
-                // Navigate to the second screen using a named route.
-                Navigator.pushNamed(context, '/second');
-              },
-              child: Text('Second screen'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/third');
-              },
-              child: Text('Third screen'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/fourth');
-              },
-              child: Text('Fourth screen'),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/fifth');
-              },
-              child: Text('Fifth screen'),
-            ),
-            Text(
-              'the button has been clicked this many times:',
-            ),
-            Text(
-              '$_counter',
-              style: Theme.of(context).textTheme.headline4,
-            ),
-          ],
-        ),
+        child: Padding(
+          padding: EdgeInsets.all(16),
+          child: Column(
+            // Column is also a layout widget. It takes a list of children and
+            // arranges them vertically. By default, it sizes itself to fit its
+            // children horizontally, and tries to be as tall as its parent.
+            //
+            // Invoke "debug painting" (press "p" in the console, choose the
+            // "Toggle Debug Paint" action from the Flutter Inspector in Android
+            // Studio, or the "Toggle Debug Paint" command in Visual Studio Code)
+            // to see the wireframe for each widget.
+            //
+            // Column has various properties to control how it sizes itself and
+            // how it positions its children. Here we use mainAxisAlignment to
+            // center the children vertically; the main axis here is the vertical
+            // axis because Columns are vertical (the cross axis would be
+            // horizontal).
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: < Widget > [
+              TheRouteButton('Boolean Screen', '/second'),
+              TheRouteButton('Infinite List Screen', '/third'),
+              TheRouteButton('Dashboard Screen', '/fourth'),
+              TheRouteButton('Fifth Screen', '/fifth'),
+              Text(
+                'The floating action button has been clicked this many times:',
+              ),
+              Text(
+                '$_counter',
+                style: Theme.of(context).textTheme.headline4,
+              ),
+            ],
+          ), )
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           _incrementCounter();
         },
         tooltip: 'Increment',
-        child: Icon(Icons.add),
+        child: Icon(
+          Icons.add),
       ),
     );
   }
