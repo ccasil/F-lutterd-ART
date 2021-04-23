@@ -14,7 +14,7 @@ void main() {
     ChangeNotifierProvider < Catalog > (
       create: (context) => Catalog(),
       child: MaterialApp(
-        title: 'Named Routes Demo',
+        title: 'Flutter Function Demo',
         // Start the app with the "/" named route. In this case, the app starts
         // on the FirstScreen widget.
         initialRoute: '/',

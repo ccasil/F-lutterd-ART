@@ -65,10 +65,10 @@ class _FirstScreenState extends State < FirstScreen > {
             children: < Widget > [
               TheRouteButton('Boolean Screen', '/second'),
               TheRouteButton('Infinite List Screen', '/third'),
-              TheRouteButton('Dashboard Screen', '/fourth'),
-              TheRouteButton('Fifth Screen', '/fifth'),
+              TheRouteButton('Form Screen', '/fourth'),
+              TheRouteButton('Dashboard Screen', '/fifth'),
               Text(
-                'The floating action button has been clicked this many times:',
+                'Floating action button click counter:',
               ),
               Text(
                 '$_counter',
