@@ -10,7 +10,6 @@ import 'package:provider/provider.dart';
 
 void main() {
   runApp(
-
     ChangeNotifierProvider < Catalog > (
       create: (context) => Catalog(),
       child: MaterialApp(
@@ -46,7 +45,6 @@ class TheRouteButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Padding(
       padding: EdgeInsets.all(16),
       child: Material(
@@ -74,7 +72,6 @@ class TheBackButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
     return Padding(
       padding: EdgeInsets.all(16),
       child: Material(

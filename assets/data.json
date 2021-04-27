@@ -1,0 +1,551 @@
+﻿[{
+        "Type": "MPEG Video BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "11(7997)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 14:46:11 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Active"
+    },
+    {
+        "Type": "MPEG Audio BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "11(7997)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 14:46:11 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Active"
+    },
+    {
+        "Type": "MPEG Video PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "11(7997,3956)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 14:46:11 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Active"
+    },
+    {
+        "Type": "MPEG Audio PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "11(7997,3955)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 14:46:11 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Active"
+    },
+    {
+        "Type": "MPEG Video BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "41(4)",
+        "Value": "53.0 kbps",
+        "Time": "Mon Apr 26 2021 14:47:45 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Active"
+    },
+    {
+        "Type": "MPEG Audio BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "41(4)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 14:47:45 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Active"
+    },
+    {
+        "Type": "MPEG Audio PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "41(4,5709)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 14:47:45 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Active"
+    },
+    {
+        "Type": "QAM256 MER",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 16 ()",
+        "Channel Number": "13",
+        "Value": "37.6 dB",
+        "Time": "Mon Apr 26 2021 12:19:56 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Active"
+    },
+    {
+        "Type": "QAM256 MER",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 16 ()",
+        "Channel Number": "71",
+        "Value": "37.9 dB",
+        "Time": "Mon Apr 26 2021 10:06:05 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "QAM256 MER",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 16 ()",
+        "Channel Number": "71",
+        "Value": "37.9 dB",
+        "Time": "Mon Apr 26 2021 11:22:28 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Active"
+    },
+    {
+        "Type": "MPEG Video BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "14(6)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 11:05:06 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "14(6)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 11:05:06 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "14(6,4213)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 11:05:06 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "14(6,4214)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 11:05:06 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "11(7999)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 11:05:10 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "11(7999)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 11:05:10 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "11(7999,3946)",
+        "Value": "3",
+        "Time": "Mon Apr 26 2021 11:05:10 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "11(7999,3941)",
+        "Value": "3",
+        "Time": "Mon Apr 26 2021 11:05:10 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "14(6)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 11:12:19 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "14(6)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 11:12:19 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "14(6,4213)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 11:12:19 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "14(6,4214)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 11:12:19 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "11(7999)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 11:12:23 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "11(7999)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 11:12:23 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "11(7999,3946)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 11:12:23 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "11(7999,3941)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 11:12:23 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "QAM256 MER",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 16 ()",
+        "Channel Number": "127",
+        "Value": "37.0 dB",
+        "Time": "Mon Apr 26 2021 03:22:37 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "QAM256 Pre BER",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 16 ()",
+        "Channel Number": "127",
+        "Value": "0",
+        "Time": "Mon Apr 26 2021 03:22:37 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "QAM256 MER",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 16 ()",
+        "Channel Number": "127",
+        "Value": "37.0 dB",
+        "Time": "Mon Apr 26 2021 03:55:12 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "QAM256 Pre BER",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 16 ()",
+        "Channel Number": "127",
+        "Value": "0",
+        "Time": "Mon Apr 26 2021 03:55:12 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "Video High",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TA410302-d37d65 (54) - Fremont Lab",
+        "Port": "Port 3 ()",
+        "Channel Number": "16",
+        "Value": "10.0 dBmV",
+        "Time": "Mon Apr 26 2021 05:33:12 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Active"
+    },
+    {
+        "Type": "QAM256 MER",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 16 ()",
+        "Channel Number": "127",
+        "Value": "37.2 dB",
+        "Time": "Mon Apr 26 2021 05:43:53 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Active"
+    },
+    {
+        "Type": "QAM256 Pre BER",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 16 ()",
+        "Channel Number": "127",
+        "Value": "0",
+        "Time": "Mon Apr 26 2021 05:43:53 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Active"
+    },
+    {
+        "Type": "Video Low",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TA410302-d37d65 (54) - Fremont Lab",
+        "Port": "Port 3 ()",
+        "Channel Number": "16",
+        "Value": "-125.7 dBmV",
+        "Time": "Mon Apr 26 2021 05:31:43 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "99(3)",
+        "Value": "48.7 kbps",
+        "Time": "Mon Apr 26 2021 06:28:06 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "14(6)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 06:49:50 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "14(6)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 06:49:50 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "14(6,4213)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 06:49:50 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "14(6,4214)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 06:49:50 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "11(7999)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 06:49:53 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "11(7999)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 06:49:53 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "11(7999,3946)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 06:49:53 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 1 ()",
+        "Channel Number": "11(7999,3941)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 06:49:53 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "14(6)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 06:53:31 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "14(6)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 06:53:31 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "14(6,4213)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 06:53:31 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "14(6,4214)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 06:53:31 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "11(7999)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 06:53:34 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "11(7999)",
+        "Value": "0.0 kbps",
+        "Time": "Mon Apr 26 2021 06:53:34 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "11(7999,3946)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 06:53:34 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Audio PID",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "11(7999,3941)",
+        "Value": "6",
+        "Time": "Mon Apr 26 2021 06:53:34 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "MPEG Video BW",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 2 ()",
+        "Channel Number": "39(1)",
+        "Value": "63.1 kbps",
+        "Time": "Mon Apr 26 2021 07:49:47 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "QAM256 MER",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 16 ()",
+        "Channel Number": "71",
+        "Value": "37.9 dB",
+        "Time": "Mon Apr 26 2021 08:49:00 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "QAM256 MER",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 16 ()",
+        "Channel Number": "88",
+        "Value": "37.9 dB",
+        "Time": "Mon Apr 26 2021 08:59:58 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    },
+    {
+        "Type": "QAM256 MER",
+        "Server": "CX280X-SERV-FRE01 (0) - Fremont lab",
+        "Device": "TXJB05TC610330-d37d63 (52) - Fremont Lab",
+        "Port": "Port 16 ()",
+        "Channel Number": "71",
+        "Value": "37.9 dB",
+        "Time": "Mon Apr 26 2021 09:32:49 GMT-0700 (Pacific Daylight Time)",
+        "Status": "Resolved"
+    }
+]
