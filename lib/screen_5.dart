@@ -1,16 +1,13 @@
 import 'dart:convert';
-// import 'dart:html';
 import 'package:flutter/material.dart';
-// import './main.dart';
-import 'package:flutter/services.dart'
-show rootBundle;
 
 class FifthScreen extends StatelessWidget {
+  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Fifth Screen"),
+        title: Text("Alarm Data Log"),
       ),
       body: FutureBuilder(
         future: DefaultAssetBundle.of(context).loadString('assets/data.json'),
@@ -18,7 +15,7 @@ class FifthScreen extends StatelessWidget {
           if (!snapshot.hasData) {
             return CircularProgressIndicator();
           }
-          var mydata = json.decode(snapshot.data.toString());
+          List<dynamic> mydata = json.decode(snapshot.data.toString());
           print(mydata);
           return ListView.builder(
             // Let the ListView know how many items it needs to build.
@@ -46,7 +43,32 @@ class FifthScreen extends StatelessWidget {
               );
             },
           );
-        })
+        }),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          // _incrementCounter();
+          showDialog(context: context, builder: (_) =>
+            new AlertDialog(
+              title: new Text("Sort by"),
+              content: MaterialButton(
+                minWidth: 250,
+                padding: EdgeInsets.fromLTRB(20.0, 15.0, 20.0, 15.0),
+                onPressed: () {
+                  // Navigator.pop(context);
+                }, // add this here
+                child: Text('Type',
+                  textAlign: TextAlign.center,
+                  style: TextStyle(fontSize: 20)
+                  .copyWith(color: Colors.blue, fontWeight: FontWeight.bold)),
+              ),
+            ),
+          );
+        },
+        tooltip: 'Sort',
+        child: Icon(
+          Icons.sort,
+        ),
+      ),
     );
   }
 }
@@ -136,6 +158,19 @@ class _CellDescription extends StatelessWidget {
   final String time;
   final String status;
 
+    factory _CellDescription.fromJson(Map<String, dynamic> json) {
+    return new _CellDescription(
+      type: json["Type"],
+      server: json["Server"],
+      device: json["Device"],
+      port: json["Port"],
+      channel: json["Channel"],
+      value: json["Value"],
+      time: json["Time"],
+      status: json["Status"],
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Padding(
@@ -150,50 +185,50 @@ class _CellDescription extends StatelessWidget {
                 fontSize: 14.0,
               ),
             ),
-            if(status == "Active") 
+            if (status == "Active")
               Text(
                 'Status: ' + status,
                 style: const TextStyle(
                   fontWeight: FontWeight.w500,
                   fontSize: 14.0,
-                  color: Colors.green
+                  color: Colors.red
                 ),
               ),
-            if(status == "Resolved")
-                          Text(
-                'Status: ' + status,
-                style: const TextStyle(
-                  fontWeight: FontWeight.w500,
-                  fontSize: 14.0,
-                  color: Colors.orange
-                ),
-              ),
-            Text(
-              'Channel: ' + channel,
-              style: const TextStyle(
-                fontWeight: FontWeight.w500,
-                fontSize: 10.0,
-              ),
-            ),
-            const Padding(padding: EdgeInsets.symmetric(vertical: 1.0)),
-              Text(
-                'Device: ' + device,
-                style: const TextStyle(fontSize: 10.0),
-              ),
-              const Padding(padding: EdgeInsets.symmetric(vertical: 1.0)),
+              if (status == "Resolved")
                 Text(
-                  'Port: ' + port,
-                  style: const TextStyle(fontSize: 10.0),
+                  'Status: ' + status,
+                  style: const TextStyle(
+                    fontWeight: FontWeight.w500,
+                    fontSize: 14.0,
+                    color: Colors.green
+                  ),
                 ),
-                Text(
-                  'Value: ' + value,
-                  style: const TextStyle(fontSize: 10.0),
-                ),
+                // Text(
+                //   'Channel: ' + channel,
+                //   style: const TextStyle(
+                //     fontWeight: FontWeight.w500,
+                //     fontSize: 10.0,
+                //   ),
+                // ),
                 const Padding(padding: EdgeInsets.symmetric(vertical: 1.0)),
                   Text(
-                    'Time: ' + time,
+                    'Port: ' + port,
                     style: const TextStyle(fontSize: 10.0),
                   ),
+                  // Text(
+                  //   'Value: ' + value,
+                  //   style: const TextStyle(fontSize: 10.0),
+                  // ),
+                  const Padding(padding: EdgeInsets.symmetric(vertical: 1.0)),
+                    Text(
+                      'Device: ' + device,
+                      style: const TextStyle(fontSize: 10.0),
+                    ),
+                    const Padding(padding: EdgeInsets.symmetric(vertical: 1.0)),
+                      Text(
+                        'Time: ' + time,
+                        style: const TextStyle(fontSize: 10.0),
+                      ),
             // Row(
             //   children: < Widget > [
             //     Text(
