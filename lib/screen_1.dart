@@ -67,6 +67,7 @@ class _FirstScreenState extends State < FirstScreen > {
               TheRouteButton('Infinite List Screen', '/third'),
               TheRouteButton('Form Screen', '/fourth'),
               TheRouteButton('Dashboard Screen', '/fifth'),
+              TheRouteButton('Login Screen', '/sixth'),
               Text(
                 'Floating action button click counter:',
               ),

@@ -4,6 +4,7 @@ import './screen_2.dart';
 import './screen_3.dart';
 import './screen_4.dart';
 import './screen_5.dart';
+import './screen_6.dart';
 
 import 'src/catalog.dart';
 import 'package:provider/provider.dart';
@@ -31,6 +32,8 @@ void main() {
           '/third': (context) => ThirdScreen(),
           '/fourth': (context) => FourthScreen(),
           '/fifth': (context) => FifthScreen(),
+          '/sixth': (context) => SixthScreen(),
+          '/welcome': (context) => WelcomeScreen(),
         },
       ),
     ),
